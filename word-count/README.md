@@ -1,0 +1,1 @@
+A simple plugin that prints word count, characters count, and time to read for the blog post. You can specify whether to add this to the top or bottom of the blog post using a simple settings page in WP admin dashboard.
