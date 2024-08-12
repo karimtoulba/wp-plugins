@@ -19,7 +19,7 @@ class NewAttentionQuiz {
     }
 
     function toRegisterBlock() {
-        wp_register_script( 'myNewPlugin', plugin_dir_url( __FILE__ ) . 'build/index.js', array('wp-blocks', 'wp-element') );
+        wp_register_script( 'myNewPlugin', plugin_dir_url( __FILE__ ) . 'src/index.js', array('wp-blocks', 'wp-element') );
         register_block_type( 'ourplugin/attentionquiz', array(
             'editor_script' => 'myNewPlugin',
             'render_callback' => array($this, 'myHTML')
